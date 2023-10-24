@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:training/training_method_channel.dart';
+import 'package:training/src/training_method_channel.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
