@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:training/training.dart';
-import 'package:training/training_platform_interface.dart';
-import 'package:training/training_method_channel.dart';
+import 'package:training/src/training.dart';
+import 'package:training/src/training_platform_interface.dart';
+import 'package:training/src/training_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 class MockTrainingPlatform
