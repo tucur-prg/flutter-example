@@ -52,20 +52,20 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Spacer(),
+              const Spacer(),
               Text('Running on: $_platformVersion\n'),
-              Spacer(),
+              const Spacer(),
               ElevatedButton(
                 onPressed: () async {
                   var obj = Registration.app();
-                  obj.accounts('bob', 20);
+                  obj.accounts(AccessToken('aaa'), 'bob', 20);
                 },
-                child: Text(
+                child: const Text(
                   '登録',
                   style: TextStyle(fontSize: 40.0),
                 ),
               ),
-              Spacer(),
+              const Spacer(),
             ]
           ),
         ),
